@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+*.logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+build-output.txt
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Vite
+.viteignore
+.vite/
+
+# Turbo
+.turbo/
+
+# OS specific
+Thumbs.db
+*.bak
+
+# Local development
+.env.development.local
+.env.test.local

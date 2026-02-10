@@ -1,0 +1,12 @@
+[user]
+	name = stanley
+	email = stanleyakegbeotu@gmail.com
+[core]
+	editor = code --wait
+	autocrlf = true
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = vscode
